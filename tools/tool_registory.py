@@ -1,14 +1,14 @@
 # Tools for groww agent which handles all the grow logic
 
-groww_tools = [
-    {
+tool_registory = {
+"get_portfolio" : {
         "type" : "function",
         "function" : {
             "name" : "get_portfolio",
             "description" : "Function to fetch my stock portfolio"
         }
     },
-    {
+"get_quote" :  {
         "type" : "function",
         "function" : {
             "name" : "get_quote",
@@ -24,4 +24,4 @@ groww_tools = [
             }
         }
     }
-]
+}
